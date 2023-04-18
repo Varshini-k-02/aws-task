@@ -4,7 +4,7 @@ const db = mysql.createConnection({
   host: "bj08bzksufds3husmxxb-mysql.services.clever-cloud.com",
   database: "bj08bzksufds3husmxxb",
   user: "uhtnsayvnhod8l70",
-  password: "",
+  password: "z9GgQZr5W6N5mOHogYPd",
   port: 3306,
 });
 const connection = () => {
