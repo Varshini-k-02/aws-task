@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
   <body>
+    <div class = "container">
     <form action="/allusers" id="form" method="POST">
       <label for="fname"> Firstname : </label>
-      <input value="name" type="text" id="fname" name="fname" /><br />
+      <input value="Firstname" type="text" id="fname" name="fname" /><br />
       <label for="lname"> Lastname : </label>
-      <input value="name" type="text" id="lname" name="lname" /><br />
+      <input value="Lastname" type="text" id="lname" name="lname" /><br />
       <label for="email"> Email id : </label>
       <input value="name@gmail" type="email" id="email" name="email" /><br />
       <label for="phno"> Phone number : </label>
@@ -20,28 +22,29 @@
       <input value="01-01-2001" type="date" id="dob" name="dob" /><br />
 
       <label for="gender"> Gender : </label>
-      <input value="blah" type="text" name="gender" /><br />
+      <input value="Gender" type="text" name="gender" /><br />
 
       <label for="add1"> Address 1 : </label>
-      <input value="name" type="text" id="add1" name="add1" /><br />
+      <input value="Address 1" type="text" id="add1" name="add1" /><br />
 
       <label for="add2"> Address 2 : </label>
-      <input value="name" type="text" id="add2" name="add2" /><br />
+      <input value="Address 2" type="text" id="add2" name="add2" /><br />
 
       <label for="city"> City : </label>
-      <input value="name" type="text" id="city" name="city" /><br />
+      <input value="City" type="text" id="city" name="city" /><br />
 
       <label for="state"> State : </label>
-      <input value="name" type="text" id="state" name="state" /><br />
+      <input value="State" type="text" id="state" name="state" /><br />
 
       <label for="code"> Code : </label>
       <input value="600100" type="text" id="code" name="code" /><br />
 
       <label for="country"> Country : </label>
-      <input value="name" type="text" id="country" name="country" /><br />
+      <input value="Country" type="text" id="country" name="country" /><br />
 
       <button type="submit">SUBMIT</button>
     </form>
+</div>
     <script src="./index.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"
